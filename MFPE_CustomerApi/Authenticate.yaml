@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: authenticationrepos
-        image: anujretailbankingcr.azurecr.io/authenticationrepos:latest
+        image: retailbankingcr.azurecr.io/authenticationrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
